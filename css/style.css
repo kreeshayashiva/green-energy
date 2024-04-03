@@ -1,0 +1,94 @@
+body{
+    margin:0%;
+    background-color: #002b00;
+}
+.masthead{
+    background-image: url("/img/masthead-img.jpg");
+    background-repeat: no-repeat;
+    background-size:50rem;
+    background-position:left;
+    padding: 1rem;
+}
+.masthead h1{
+    font-family: "Lora", serif;
+    color: #ffffff;
+    padding: 0.5rem;
+    text-align:center;
+}
+.dynamic-content img{
+    width: 100px;
+    height: 100px;
+}
+nav ul li{
+    list-style-type: none;
+    color: #ffffff;;
+    font-family: "Ubuntu", sans-serif;
+    padding: 0.5rem;
+    border-radius: 15%;
+    text-align: center;
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0;
+}
+.dynamic-content{
+    margin: 1rem;
+    color:#ffffff;
+}
+.dynamic-content p{
+    font-family: "Ubuntu", sans-serif;
+}
+.dynamic-content h1{
+    font-family: "Lora", serif;
+}
+.dynamic-content img{
+    float:left;
+    margin: 1rem;
+}
+button {
+    padding: 1rem;
+    background-color: #006c00;
+    border-style: none;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    margin-left: 1rem;
+}
+button:hover {
+    background-color: #005500;
+}
+button:active {
+    background-color: #004300;
+}
+footer{
+    margin: 1rem;
+    margin-top: 2rem;
+    color: #ffffff;
+}
+.fa-brands{
+    font-size:larger;
+    margin: 1rem;
+    background-color: #006c00;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.fa-brands:hover{
+    background-color: #005500;
+}
+
+@media only screen and (min-width: 30rem) {
+    ul {
+        flex-direction: row;
+    }
+
+    .masthead {
+        background-size: 160%;
+        background-position: left;
+    }
+
+    .dynamic-content img {
+        width: 30%;
+        height: auto;
+    }
+}

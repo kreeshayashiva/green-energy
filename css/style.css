@@ -3,7 +3,7 @@ body{
     background-color: #002b00;
 }
 .masthead{
-    background-image: url("/img/masthead-img.jpg");
+    background-image: url("img/masthead-img.jpg");
     background-repeat: no-repeat;
     background-size:50rem;
     background-position:left;
